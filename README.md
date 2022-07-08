@@ -6,10 +6,20 @@ KD8CEC (Ian Lee, hamskey.com) developed an enhanced set of firmware for the uBit
 Ian created a wide variety of screens, especially for the smaller Nextion screens. Larger screens were not supported and generally resulted in only a portion of the screen being used. 
 
 This work reflects an extension of his work into areas:
-1. Additional screen sizes are natively supported (e.g. 3.5, 5, 7, etc.)
+1. Additional screen sizes are natively supported (e.g. 5, 7, and 9 etc.)
 2. "Enhancements" to the UX that IMHO made it easier to use and fixed some inconsistency.
 
-This work is open source and I have included the original Nextion GUI tool input files.  They worked on the Nextion tool that was provided at the time 2019/2020. They likely need to be migrated to the latest tool and I will do so  when time permits.
+I have not made any attempt to support the smaller screens that Ian originally supported.
+
+This work is open source and I have included the original Nextion GUI tool input files.  
+
+Note: All compiled with Nextion Editor V0.53. The Nextion Editor LTS (Long Term Support) should be used to edit these files. https://nextion.tech/nextion-editor/#_section2
+
+The current version of the Nextion Editor is 1.63.3. These files have NOT been imported to this release. The FAQ suggested that the firmware on the screen might need to be upgraded on older models to use 1.63.3.  When I have time, will take a look at this. Meanwhile, if you are curious, please try it and report back!
+
+There are two directories:
+1. Prebuilt  - these are prebuilt files to uploade to your Nextion screens
+2. Source - the input file for the Nextion editor
 
 73
 Mark
