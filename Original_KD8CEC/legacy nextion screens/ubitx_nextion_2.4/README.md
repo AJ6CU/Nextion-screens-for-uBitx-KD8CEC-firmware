@@ -28,5 +28,5 @@ Example : Enhanced 2.8 Model (NX3224K028_011)
 
 Example : Intelligent 4.3 Model (NX4827P043-011)     
              ubtix_43_P.HMI (source code)
-             ubtix_43_P.tft   (precompiled)
+             ubtix_43_P.tft   (precompiled) 
              ubtix_Temp43_P.HMI  (Template file)
