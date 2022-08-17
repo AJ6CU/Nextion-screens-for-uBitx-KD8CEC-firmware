@@ -31,7 +31,7 @@ The ".tft" files in the legacy section are exactly the same as the ones generate
 
 https://github.com/phdlee/ubitx/releases/download/1.1/UBITX_Nextion_GUI_V3.zip
 
-I believe that the same ".tft" files could be regenerated using the Nextion Editor LTS. The files in the "recent nextion screen" directory were all generated tieh the V.163.3 model and "should" work on all years of Nextion screens.
+I believe that the same ".tft" files could be regenerated using the Nextion Editor LTS. The files in the "recent nextion screen" directory were all generated using the V1.63.3 editor and "should" work on all years of Nextion screens.
 
 NEXTION SCREEN MODELS
 
