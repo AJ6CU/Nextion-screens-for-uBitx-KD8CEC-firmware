@@ -1,4 +1,6 @@
-#Nextion screens for uBitx KD8CEC firmware
+#NEXTION SCREEMNS FPR uBITX KD8CEC FIRMARE
+
+
  This directory contains Nextion screens for Ian Lee's for his KD8CEC firmware for the uBitx.
 
 KD8CEC (Ian Lee, hamskey.com) developed an enhanced set of firmware for the uBitx transceiver designed by Ashhar Farham (VU2ESE) and sold by his company HF Signals Electronics Pvt. ltd (https://www.hfsignals.com/). KD8CEC created the first touchscreen UX for the uBitx using the Nextion smart screens to offload the processing and memory requirements over the already overloaded Arduino nano used by the uBitx.
