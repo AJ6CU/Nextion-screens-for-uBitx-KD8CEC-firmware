@@ -5,11 +5,11 @@ KD8CEC (Ian Lee, hamskey.com) developed an enhanced set of firmware for the uBit
 
 Ian created a wide variety of screens, especially for the smaller Nextion screens. Larger screens were not supported and generally resulted in only a portion of the screen being used. 
 
-#NOTE ON FORMATS
+NOTE ON FORMATS
 Contained in the subdirectories, there are both ".tft" and "hmi" files. Basically, the "'hmi" files can be thought of as source for the screens that is used by the Nextion GUI Editor to generate (compile) the ".tft" files. By writing the right ".tft" file to a sdcard, and inserting it into your Nextion screen prior to turning on the power, the screen will read the ".tft" file and save the screen formats to its EEPROM.
 
 
-#LEGACY AND RECENT NEXTION SCREENS
+LEGACY AND RECENT NEXTION SCREENS
 There are two sub-directories in this section:
 - legacy nextion screens
 - recent nextion screens
@@ -30,7 +30,7 @@ https://github.com/phdlee/ubitx/releases/download/1.1/UBITX_Nextion_GUI_V3.zip
 
 
 
-#NEXTION SCREEN MODELS
+NEXTION SCREEN MODELS
 Nextion currently sells the following MODELS of its screens:
 - Basic
 - Discovery
@@ -39,7 +39,7 @@ Nextion currently sells the following MODELS of its screens:
 
 It looks to *me* that the Basic version is in the process of being replaced by the "Discovery". Similarly, the "Enhanced" version looks to *me* to be a replacement for Discovery. Unfortunately, the firmware is not compatible between each of these models so you need to find (or generate yourself) a ".tft" file that supports the size and particular model.
 
-#HOW DO I KNOW WHAT MODEL OF NEXTION I HAVE?
+HOW DO I KNOW WHAT MODEL OF NEXTION I HAVE?
 
 The model number is coded in the manufacturer part#. The format of the part# is:
 
@@ -51,10 +51,10 @@ m= 	T => Basic
 	E => Enhanced
 	P => Intelligent
 
-#WHAT NEXTIONS SCREEN SHOULD I BUY?
+WHAT NEXTIONS SCREEN SHOULD I BUY?
 If available in your desired screen size, spend the extra money and buy the Enhanced or Intelligent. The Basic and Discovery models are slower and have inadequate memory/eeprom to hold the more recent evolutions of the screens.
 
-#HOW DO I CUSTOMIZE AND GENERATE MY OWN tft FILES
+HOW DO I CUSTOMIZE AND GENERATE MY OWN tft FILES
 This work reflects an extension of his work into areas:
 1. Additional screen sizes are natively supported (e.g. 5, 7, and 9 etc.)
 2. "Enhancements" to the UX that IMHO made it easier to use and fixed some inconsistency.
