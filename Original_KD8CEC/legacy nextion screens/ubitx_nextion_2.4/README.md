@@ -1,6 +1,6 @@
 #FILES FOR 2.4" SCREEN
 
-DECODING FILE NAMES:
+DECODING FILE NAMES: 
 rule :
   ubitx + _ + Option1 + LCD Type + Option2 + .hmi
 
