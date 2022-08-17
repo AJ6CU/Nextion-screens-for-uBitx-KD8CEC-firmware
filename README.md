@@ -40,6 +40,7 @@ Nextion currently sells the following MODELS of its screens:
 It looks to *me* that the Basic version is in the process of being replaced by the "Discovery". Similarly, the "Enhanced" version looks to *me* to be a replacement for Discovery. Unfortunately, the firmware is not compatible between each of these models so you need to find (or generate yourself) a ".tft" file that supports the size and particular model.
 
 #HOW DO I KNOW WHAT MODEL OF NEXTION I HAVE?
+
 The model number is coded in the manufacturer part#. The format of the part# is:
 
 NXnnnnmsss
