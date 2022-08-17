@@ -1,10 +1,16 @@
-# Original Nextion screens for uBitx KD8CEC firmware
- This directory contains original Nextion screens designed by Ian Lee for his KD8CEC firmware for the uBitx.
+#Nextion screens for uBitx KD8CEC firmware
+ This directory contains Nextion screens for Ian Lee's for his KD8CEC firmware for the uBitx.
 
 KD8CEC (Ian Lee, hamskey.com) developed an enhanced set of firmware for the uBitx transceiver designed by Ashhar Farham (VU2ESE) and sold by his company HF Signals Electronics Pvt. ltd (https://www.hfsignals.com/). KD8CEC created the first touchscreen UX for the uBitx using the Nextion smart screens to offload the processing and memory requirements over the already overloaded Arduino nano used by the uBitx.
 
 Ian created a wide variety of screens, especially for the smaller Nextion screens. Larger screens were not supported and generally resulted in only a portion of the screen being used. 
 
+There are three main folders here:
+1. Original_KD8CEC  - these are the ones that Ian Lee originally designed
+2. User_Contributed_Screens - these are screens that various users have enhanced or created
+3. Resources - currently contains artwork for various size screens that can be leveraged for new screens
+
+So which screens do you choose? Best answer is to try various ones and see what you like. Just be aware that for larger screen sizes (3.5+), Ian Lee's screens were not resized and you will get a black boarder on right and the bottom. This is one of the things that various uses fixed in their contributed screens.
 
 NOTE ON FORMATS
 
@@ -13,25 +19,18 @@ Contained in the subdirectories, there are both ".tft" and "hmi" files. Basicall
 
 LEGACY AND RECENT NEXTION SCREENS
 
-There are two sub-directories in this section:
+There are typically two sub-directories in each section:
 - legacy nextion screens
 - recent nextion screens
 
-At some point in the last few years, the manufacturer of the Nextion screens changed the firmware that ran on their screens and this required the use of a newer version of the Nextion editor to regenerate the screens that you load on to the Nextion via the SDCARD. (See: https://ubitx.net/mod-add-colour-touch-screen/ for a good set of instrutions on how to load your ".tft" file onto your screen.) You know you are trying to load an older format ".tft" on to a more recent NExtion screen when you see the following message on screen boot:
+At some point in the last few years, the manufacturer of the Nextion screens changed the firmware that ran on their screens and this required the use of a newer version of the Nextion editor to regenerate the screens that you load on to the Nextion via the SDCARD. (See: https://ubitx.net/mod-add-colour-touch-screen/ for a good set of instrutions on how to load your ".tft" file onto your screen.) You know you are trying to load an older format ".tft" on to a more recent Nextion screen when you see the following message on screen boot:
 
 "file version is too low"
 
 If you get this error message, you are trying to load an older ".tft" version into a recent Nextion screen with newer firmware. The good news is that generally, the ".tft" file generated for recent Nextion screens will also run on older ones (depending on how old they are...  see: https://nextion.tech/faq-items/using-legacy-nextion-devices/ for details)
 
-There are two versions of the Nextion editor:
-- Nextion Editor LTS (Long Term Support) 
-- V1.63.3
+In general, if you can get away with using the "Legacy" screens you should. With the upgrade of the Nextion Editor, the generated code got larger. This means that to fit in the limited memoryu of the Nextion (especially the Basic and even smaller Enhanced screens), there has been some trimming of text entry sizes and especially the information that can be contained in the QR code used for backup.
 
-The ".tft" files in the legacy section are exactly the same as the ones generated originally by Ian Lee and made available in his repository:
-
-https://github.com/phdlee/ubitx/releases/download/1.1/UBITX_Nextion_GUI_V3.zip
-
-I believe that the same ".tft" files could be regenerated using the Nextion Editor LTS. The files in the "recent nextion screen" directory were all generated using the V1.63.3 editor and "should" work on all years of Nextion screens.
 
 NEXTION SCREEN MODELS
 
@@ -62,24 +61,7 @@ WHAT NEXTIONS SCREEN SHOULD I BUY?
 If available in your desired screen size, spend the extra money and buy the Enhanced or Intelligent. The Basic and Discovery models are slower and have inadequate memory/eeprom to hold the more recent evolutions of the screens.  ALTHOUGH THERE ARE ".tft" files for a 9", it does not appear to be avaiable nor is it supported by the Nextion editor. So DO NOT BUY the 9" model if you find one.
 
 
-HOW DO I CUSTOMIZE AND GENERATE MY OWN tft FILES
-
-This work reflects an extension of his work into areas:
-1. Additional screen sizes are natively supported (e.g. 5, 7, and 9 etc.)
-2. "Enhancements" to the UX that IMHO made it easier to use and fixed some inconsistency.
-
-I have not made any attempt to support the smaller screens that Ian originally supported.
-
-This work is open source and I have included the original Nextion GUI tool input files.  
-
-Note: All compiled with Nextion Editor V0.53. The Nextion Editor LTS (Long Term Support) should be used to edit these files. https://nextion.tech/nextion-editor/#_section2
-
-The current version of the Nextion Editor is 1.63.3. These files have NOT been imported to this release. The FAQ suggested that the firmware on the screen might need to be upgraded on older models to use 1.63.3.  When I have time, will take a look at this. Meanwhile, if you are curious, please try it and report back!
-
-There are two directories:
-1. Prebuilt  - these are prebuilt files to uploade to your Nextion screens
-2. Source - the input file for the Nextion editor
-
 73
 Mark
-AJ6CU
+AJ6CU 
+email on QRZ
