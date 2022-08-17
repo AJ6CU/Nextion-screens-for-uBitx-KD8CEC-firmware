@@ -59,7 +59,7 @@ m= 	T => Basic
 
 WHAT NEXTIONS SCREEN SHOULD I BUY?
 
-If available in your desired screen size, spend the extra money and buy the Enhanced or Intelligent. The Basic and Discovery models are slower and have inadequate memory/eeprom to hold the more recent evolutions of the screens.
+If available in your desired screen size, spend the extra money and buy the Enhanced or Intelligent. The Basic and Discovery models are slower and have inadequate memory/eeprom to hold the more recent evolutions of the screens.  ALTHOUGH THERE ARE ".tft" files for a 9", it does not appear to be avaiable nor is it supported by the Nextion editor. So DO NOT BUY the 9" model if you find one.
 
 
 HOW DO I CUSTOMIZE AND GENERATE MY OWN tft FILES
