@@ -1,4 +1,4 @@
-#NEXTION SCREEMNS FPR uBITX KD8CEC FIRMARE
+#NEXTION SCREENS FPR uBITX KD8CEC FIRMARE
 
 
  This directory contains Nextion screens for Ian Lee's for his KD8CEC firmware for the uBitx.
