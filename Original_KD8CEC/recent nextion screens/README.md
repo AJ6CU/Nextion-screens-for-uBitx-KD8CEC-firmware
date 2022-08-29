@@ -18,12 +18,11 @@ Nextion currently sells the following MODELS of its screens:
 - Enhanced
 - Intelligent
 
+It looks to *me* that the Basic version is in the process of being replaced by the "Discovery". Similarly, the "Enhanced" version looks to *me* to be a replacement for Discovery. Unfortunately, the firmware is not compatible between each of these models so you need to find (or generate yourself) a ".tft" file that supports the size and particular model.
+
 ***************************************************************************
 NOTE!!!!  Not all the screens have been tested on platforms provided. In particular, the newer Intelligent and Discovery screens have generally not been tested and we are relying on the Nextion Compiler to correctly generate the files!  Be aware of this potential problem if you buy one of these newer models. There is one existent proof (4.3 screen) where this worked. So I am confident that there should be "no problems" ;-)
 ***************************************************************************
-
-
-It looks to *me* that the Basic version is in the process of being replaced by the "Discovery". Similarly, the "Enhanced" version looks to *me* to be a replacement for Discovery. Unfortunately, the firmware is not compatible between each of these models so you need to find (or generate yourself) a ".tft" file that supports the size and particular model.
 
 #HOW DO I KNOW WHAT MODEL OF NEXTION I HAVE?
 The model number is coded in the manufacturer part#. The format of the part# is:

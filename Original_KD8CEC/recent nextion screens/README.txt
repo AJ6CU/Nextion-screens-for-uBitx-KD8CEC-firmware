@@ -1,6 +1,3 @@
-#FILES FOR 2.8" SCREEN
-
-DECODING FILE NAMES:
 rule :
   ubitx + _ + Option1 + LCD Type + Option2 + .hmi
 
@@ -11,9 +8,10 @@ LCD Type : 2.4" => 24
                2.8" => 28
               3.2" => 32
 
-Option : Basic => empty
+Option : Basic => empty or _B
+	 Discovery => _D
          Enhanced => _E
-	 Intelligent =>_P
+	 Intelligent =>_I
 -----------------------------------------------------------------------------
 
 Example : Basic 2.4 Basic Model (NX3224T024_011)
@@ -27,6 +25,6 @@ Example : Enhanced 2.8 Model (NX3224K028_011)
              ubtix_Temp28_E.HMI  (Template file)
 
 Example : Intelligent 4.3 Model (NX4827P043-011)     
-             ubtix_43_P.HMI (source code)
-             ubtix_43_P.tft   (precompiled)
-             ubtix_Temp43_P.HMI  (Template file)
+             ubtix_43_I.HMI (source code)
+             ubtix_43_I.tft   (precompiled)
+             ubtix_Temp43_I.HMI  (Template file)

@@ -1,5 +1,12 @@
 #FILES FOR 9" SCREEN
 
+NOTE:
+Ian Lee has files for a 9" Nextion device. However, neither the current version of the Nextion editor nor the LTS (Long term support) editor provide this target for a compile of a tft. The HMI versions here are provided as is and cannot be used currently to generate a .tft file.
+
+-----
+
+
+
 DECODING FILE NAMES:
 
 rule :
@@ -13,8 +20,9 @@ LCD Type : 2.4" => 24
               3.2" => 32
 
 Option : Basic => empty
+	 Discovery => _D
          Enhanced => _E
-	 Intelligent =>_P
+	 Intelligent =>_I
 -----------------------------------------------------------------------------
 
 Example : Basic 2.4 Basic Model (NX3224T024_011)
@@ -28,6 +36,6 @@ Example : Enhanced 2.8 Model (NX3224K028_011)
              ubtix_Temp28_E.HMI  (Template file)
 
 Example : Intelligent 4.3 Model (NX4827P043-011)     
-             ubtix_43_P.HMI (source code)
-             ubtix_43_P.tft   (precompiled)
-             ubtix_Temp43_P.HMI  (Template file)
+             ubtix_43_I.HMI (source code)
+             ubtix_43_I.tft   (precompiled)
+             ubtix_Temp43_I.HMI  (Template file)
